@@ -19,5 +19,4 @@ model User {
   password  String
   updatedAt DateTime @updatedAt
   createdAt DateTime @default(now())
-
 }
