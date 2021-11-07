@@ -4,5 +4,4 @@ export class CreateMovieDto{
     length: Date;
     storyline: string;
     image: string;
-
 }
