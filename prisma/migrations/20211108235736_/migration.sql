@@ -16,8 +16,8 @@ CREATE TABLE "User" (
 CREATE TABLE "Movie" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
-    "year" TIMESTAMP(3) NOT NULL,
-    "length" TIMESTAMP(3) NOT NULL,
+    "year" TEXT NOT NULL,
+    "length" TEXT NOT NULL,
     "storyline" TEXT NOT NULL,
     "image" TEXT NOT NULL,
     "updateAt" TIMESTAMP(3) NOT NULL,
