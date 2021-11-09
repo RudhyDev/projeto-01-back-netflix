@@ -24,9 +24,9 @@ export class AuthService {
 
         console.log(hash);
 
-        if(hash === password){
-            return 'Login ok';
-        }else{
+        if (hash === password){
+            return 'Login ok'
+        } else{
             return 'Falha ao fazer o login';
         }
     }
