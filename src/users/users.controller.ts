@@ -4,6 +4,8 @@ import { CreateUserDto } from './DTO/create-user.dto';
 import { UsersService } from './users.service';
 import { UserRole } from './enum/role.enum';
 import { SimpleGuard } from 'src/auth/simple.guard';
+import { AuthGuard } from '@nestjs/passport';
+
 
 
 
@@ -29,6 +31,8 @@ export class UsersController {
         return this.service.findOne(id);
     };
 
+
+    @UseGuards(AuthGuard())
     @Get('find-all')
     findMany(){
         return this.service.findMany();
