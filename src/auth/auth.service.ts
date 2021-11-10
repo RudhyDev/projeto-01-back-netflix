@@ -19,12 +19,11 @@ export class AuthService {
             throw new NotFoundException('Usuário não encontrado')
         }
 
-        const salt = 10;
-        const hash = await bcrypt.hash(password, salt);
+        
+        const hashValid = await bcrypt.compare(password, user.password);
 
-        console.log(hash);
-
-        if (hash === password){
+        
+        if (hashValid){
             return 'Login ok'
         } else{
             return 'Falha ao fazer o login';
