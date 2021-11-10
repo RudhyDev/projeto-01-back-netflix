@@ -25,7 +25,7 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 <p>
-<h2>link da API: <a href="https://projeto01-backend-nestjs.herokuapp.com/" target="_blank">API-Netflix</a>
+<h2>link da API: <a href="https://projeto01-backend-nestjs.herokuapp.com/" target="blank">API-Netflix</a>
 </p>
 
 
